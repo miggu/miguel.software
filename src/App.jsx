@@ -50,7 +50,7 @@ export default function App() {
           <div className="front-content">
             {/* <img src="/logo.svg" className="logo-svg" alt="JACOBS+TALBOURDET-NAPOLEONE" /> */}
 
-            <h1 className="title">miguel software</h1>
+            <h1 className="title">miguel.software</h1>
           </div>
           <BottomNav
             activeFace={activeFace}
