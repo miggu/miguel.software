@@ -102,7 +102,10 @@ export default function App() {
                 conversion-oriented interfaces — backed by full-stack fluency.
               </p>
 
-              <p>He'd rather understand a system than work around it.</p>
+              <p>
+                Available for contract — remote, on-site, or hybrid across
+                London and the UK.
+              </p>
             </div>
             <div className="stack-list">
               <ul>
@@ -143,10 +146,7 @@ export default function App() {
             </svg>
           </button>
           <div className="contact-content">
-            <a
-              href="mailto:hello@miguelgomez.co.uk"
-              className="contact-link"
-            >
+            <a href="mailto:hello@miguelgomez.co.uk" className="contact-link">
               hello@miguelgomez.co.uk
             </a>
             <p className="contact-quip">
