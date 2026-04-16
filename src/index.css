@@ -169,24 +169,18 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.clients-list {
+.stack-list {
   flex: 1;
 }
 
-.clients-list h3 {
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  font-weight: 400;
-}
-
-.clients-list ul {
+.stack-list ul {
   list-style: none;
-  column-count: 2;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2rem;
 }
 
-.clients-list li {
+.stack-list li {
   margin-bottom: 0.5rem;
   font-size: 1rem;
 }
@@ -203,26 +197,44 @@ body {
 }
 
 .contact-link {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 700;
   text-decoration: none;
   color: var(--text-black);
-  text-transform: uppercase;
+  letter-spacing: -0.03em;
 }
 
 .contact-link:hover {
   text-decoration: underline;
 }
 
+.contact-quip {
+  font-size: 1rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.contact-quip code {
+  font-family: 'Menlo', 'Monaco', monospace;
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.08);
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  font-style: normal;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
+    align-items: stretch;
     padding-top: 80px;
     overflow-y: auto;
   }
-  .clients-list ul {
-    column-count: 1;
+  .stack-list,
+  .about-text {
+    flex: none;
+    width: 100%;
   }
   .close-btn {
     top: 20px;

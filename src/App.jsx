@@ -104,8 +104,7 @@ export default function App() {
 
               <p>He'd rather understand a system than work around it.</p>
             </div>
-            <div className="clients-list">
-              <h3>Stack</h3>
+            <div className="stack-list">
               <ul>
                 <li>Javascript/Typescript</li>
                 <li>React</li>
@@ -144,46 +143,15 @@ export default function App() {
             </svg>
           </button>
           <div className="contact-content">
-            <div>
-              <p style={{ marginBottom: "10px", textTransform: "uppercase" }}>
-                Powered by
-              </p>
-              <a
-                href="https://vitejs.dev/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="contact-link"
-              >
-                VITE + REACT
-              </a>
-            </div>
-            <div style={{ marginTop: "40px" }}>
-              <a
-                href="mailto:hello@miguelgomez.co.uk"
-                className="nav-link"
-                style={{ fontSize: "1rem", textTransform: "none" }}
-              >
-                hello@miguelgomez.co.uk
-              </a>
-            </div>
-            <div style={{ marginTop: "20px", display: "flex", gap: "20px" }}>
-              <a
-                href="https://github.com/miguelgomez"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-link"
-              >
-                @miguelgomez
-              </a>
-              <a
-                href="https://www.linkedin.com/in/miguelgomez"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="nav-link"
-              >
-                portfolio
-              </a>
-            </div>
+            <a
+              href="mailto:hello@miguelgomez.co.uk"
+              className="contact-link"
+            >
+              hello@miguelgomez.co.uk
+            </a>
+            <p className="contact-quip">
+              replies faster than <code>npm install</code>.
+            </p>
           </div>
         </div>
       </motion.div>
