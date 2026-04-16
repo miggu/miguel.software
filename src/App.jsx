@@ -86,8 +86,8 @@ export default function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                Miguel Gomez is a creative developer and software engineer based
-                in London, focusing on designing innovative web experiences.
+                Miguel Gomez is a London-based creative developer specialising
+                in interactive, high-performance web experiences.
               </p>
 
               <p>
