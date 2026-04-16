@@ -86,39 +86,33 @@ export default function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                Miguel Gomez is a London-based creative developer and software
-                engineer specializing in modern web experiences.
+                Miguel Gomez is a creative developer and software engineer based
+                in London, focusing on designing innovative web experiences.
               </p>
 
               <p>
-                A <strong>TypeScript Full Stack</strong> developer with a strong
+                A <strong>TypeScript/Javascript</strong> developer with a strong
                 emphasis on <strong>frontend</strong> design and implementation.
-              </p>
-
-              <p>
-                He builds robust, interactive, and accessible interfaces while
-                maintaining full-stack capabilities to handle complete technical
-                solutions, including server technology and backend architecture.
               </p>
 
               <p>
                 Drawing on his deep expertise in the modern Javascript
                 ecosystem—including React, Typescript, and Node.js—he crafts
-                highly interactive, accessible, and performant digital products
-                tailored to each user.
+                robust, interactive, accessible, highly performant,
+                conversion-oriented interfaces — backed by full-stack fluency.
               </p>
+
+              <p>He'd rather understand a system than work around it.</p>
             </div>
             <div className="clients-list">
               <h3>Stack</h3>
               <ul>
-                <li>TypeScript</li>
-                <li>JavaScript</li>
+                <li>Javascript/Typescript</li>
                 <li>React</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
                 <li>Tailwind CSS</li>
                 <li>Vite</li>
-                <li>Framer Motion</li>
                 <li>Three.js</li>
               </ul>
             </div>
