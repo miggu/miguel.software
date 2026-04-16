@@ -91,15 +91,15 @@ export default function App() {
               </p>
 
               <p>
-                A <strong>TypeScript/Javascript</strong> developer with a strong
-                emphasis on <strong>frontend</strong> design and implementation.
+                A <strong>TypeScript</strong> developer with a strong emphasis
+                on <strong>frontend</strong> design and implementation.
               </p>
 
               <p>
-                Drawing on his deep expertise in the modern Javascript
-                ecosystem—including React, Typescript, and Node.js—he crafts
-                robust, interactive, accessible, highly performant,
-                conversion-oriented interfaces — backed by full-stack fluency.
+                Working across the modern JavaScript ecosystem — including
+                React, TypeScript, and Node.js — he builds robust, interactive,
+                accessible, and highly performant interfaces — backed by{" "}
+                <em>full-stack fluency</em>.
               </p>
 
               <p>
