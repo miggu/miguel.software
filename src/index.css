@@ -177,14 +177,18 @@ body {
 
 .stack-list ul {
   list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  max-width: 400px;
 }
 
 .stack-list li {
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--text-black);
+  border-radius: 999px;
+  padding: 0.35em 0.9em;
+  white-space: nowrap;
 }
 
 /* Contact Layout */
@@ -230,13 +234,32 @@ body {
   .about-content {
     flex-direction: column;
     align-items: stretch;
-    padding-top: 80px;
+    justify-content: safe center;
+    gap: 1.5rem;
+    padding: 80px 6vw calc(24px + env(safe-area-inset-bottom));
     overflow-y: auto;
+  }
+  .about-text {
+    font-size: clamp(0.95rem, 2.4vh, 1.15rem);
+    line-height: 1.35;
+  }
+  .about-text p {
+    margin-bottom: 1rem;
+  }
+  .about-text p:last-child {
+    margin-bottom: 0;
   }
   .stack-list,
   .about-text {
     flex: none;
     width: 100%;
+  }
+  .stack-list ul {
+    max-width: none;
+    gap: 0.5rem;
+  }
+  .stack-list li {
+    font-size: 0.8rem;
   }
   .close-btn {
     top: 20px;
